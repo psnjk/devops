@@ -9,6 +9,7 @@
 8. Use concrete programming approach like OOP
 9. PEP 8
 10. Divide project into smaller packages
+11. Use requirements.txt
 
 
 ## Reference
