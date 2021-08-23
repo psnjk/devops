@@ -22,6 +22,8 @@ Windows
 3. ```  docker images``` - check for an image
 4. ``` docker run python-docker ``` - run it
 
+or just ```docker run  -it -p 5000:5000 psnjk/devops:latest```
+
 ## Contributing
 1. Fork repository (https://github.com/psnjk/devops/fork)
 2. Create your feature branch (git checkout -b feature/fooBar)
