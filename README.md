@@ -17,7 +17,7 @@ Windows
 7. Open your browser and type in search bar localhost:5000
 
 ## Contributing
-1. Fork repository (https://github.com/unaimillan/devops/fork)
+1. Fork repository (https://github.com/psnjk/devops/fork)
 2. Create your feature branch (git checkout -b feature/fooBar)
 3. Commit your changes (git commit -am 'Add some fooBar')
 4. Push to the branch (git push origin feature/fooBar)
