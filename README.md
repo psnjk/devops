@@ -16,6 +16,12 @@ Windows
 6. ```flask run``` - run the application
 7. Open your browser and type in search bar localhost:5000
 
+## Docker
+1. ``` cd application ``` - change working directory to ```application```, ```Dockerfile``` is ready here
+2. ```docker build --tag python-docker .   ``` - build an image
+3. ```  docker images``` - check for an image
+4. ``` docker run python-docker ``` - run it
+
 ## Contributing
 1. Fork repository (https://github.com/psnjk/devops/fork)
 2. Create your feature branch (git checkout -b feature/fooBar)
