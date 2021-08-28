@@ -7,7 +7,7 @@
   <h3 align="center">Innopolis University F21 Devops</h3>
 
   <p align="center">
-    project_description
+    Devops course repository for practical lab tasks
     <br />
     <a href="https://github.com/psnjk/devops"><strong>Explore the docs »</strong></a>
     <br />
