@@ -1,3 +1,5 @@
+![main](https://github.com/psnjk/devops/actions/workflows/main.yml/badge.svg)
+
 <br />
 <p align="center">
   <a href="https://github.com/psnjk/devops">
