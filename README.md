@@ -48,6 +48,10 @@ Windows
 
 or just ```docker run  -it -p 5000:5000 psnjk/devops:latest```
 
+## Continuous integration
+- GitHub actions is set up and works
+- On each push the code is tested, checked with linters, built and pushed to the docker hub
+
 ## Unit tests
 To run unit tests manually just run the following command inside application directory and inside virtual environment:
 ```python3 -m pytest```
