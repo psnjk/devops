@@ -46,7 +46,7 @@ Windows
 
 or just ```docker run  -it -p 5000:5000 psnjk/devops:latest```
 
-### Unit tests
+## Unit tests
 To run unit test manually run the following command inside application directory:
 ```pytest```
 
