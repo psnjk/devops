@@ -16,3 +16,5 @@
 6. Better to run jenkins on cloud and set up a web hooks for the repository, than to always run it on your machine
 7. Avoid calls to Jenkins.getInstance
 8. Avoid scheduling all jobs to start at the same time
+9. Use shared libraries
+10. Don't use input within an agent
