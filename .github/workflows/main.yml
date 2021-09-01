@@ -69,8 +69,8 @@ jobs:
           file: ./application/Dockerfile
           push: true
           tags: ${{ env.username }}/${{ env.pythonapp }}:latest
-          cache-from: type=registry,ref=${{env.username}}/${{env.pythonapp}}:buildcache
-          cache-to: type=registry,ref=${{env.username}}/${{env.pythonapp}}:buildcache,mode=max
+          cache-from: type=registry,ref=${{env.username}}/${{env.pythonapp}}:latest
+          cache-to: type=registry,ref=${{env.username}}/${{env.pythonapp}}:latest,mode=max
 
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
