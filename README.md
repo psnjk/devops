@@ -46,6 +46,10 @@ Windows
 
 or just ```docker run  -it -p 5000:5000 psnjk/devops:latest```
 
+### Unit tests
+to run unit test manually run the following command inside application directory:
+```pytest```
+
 ## Contributing
 1. Fork repository (https://github.com/psnjk/devops/fork)
 2. Create your feature branch (git checkout -b feature/fooBar)
