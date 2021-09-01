@@ -38,8 +38,8 @@ pipeline {
                     python -m pytest
                     """
                 }
-                }
             }
+        }
 
     }
 }
