@@ -49,7 +49,7 @@ Windows
 or just ```docker run  -it -p 5000:5000 psnjk/devops:latest```
 
 ## Unit tests
-To run unit tests manually just run the following command inside application directory and with virtual environment being active:
+To run unit tests manually just run the following command inside application directory and inside virtual environment:
 ```python3 -m pytest```
 - Unit tests are used by GitHub workflows and Jenkins to ensure the application works correctly
 
