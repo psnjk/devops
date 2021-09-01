@@ -1,3 +1,5 @@
+![main](https://github.com/psnjk/devops/actions/workflows/main.yml/badge.svg)
+
 <br />
 <p align="center">
   <a href="https://github.com/psnjk/devops">
@@ -48,7 +50,8 @@ or just ```docker run  -it -p 5000:5000 psnjk/devops:latest```
 
 ## Unit tests
 To run unit tests manually just run the following command inside application directory:
-```pytest```
+```python3 -m pytest```
+- Unit tests are used by GitHub workflows and Jenkins to ensure the application works correctly
 
 ## Contributing
 1. Fork repository (https://github.com/psnjk/devops/fork)
