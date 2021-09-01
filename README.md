@@ -50,7 +50,7 @@ or just ```docker run  -it -p 5000:5000 psnjk/devops:latest```
 
 ## Unit tests
 To run unit tests manually just run the following command inside application directory:
-```pytest```
+```python3 -m pytest```
 - Unit tests are used by GitHub workflows and Jenkins to ensure the application works correctly
 
 ## Contributing
