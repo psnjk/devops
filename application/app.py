@@ -9,7 +9,7 @@ tz_Moscow = pytz.timezone("Europe/Moscow")
 @app.route('/')
 def time():
     cur_time = datetime.now(tz_Moscow).strftime("%H:%M:%S")
-    return f"<center>{cur_time}</center> <a href=\"/name\" style=\"text-align:center\">Here is my name! Running from docker! </a>"
+    return f"<center>{cur_time}</center> <a href=\"/name\" style=\"text-align:center\">Here is my name! Running from docker! Kek</a>"
 
 @app.route('/name')
 def name():
