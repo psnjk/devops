@@ -1,5 +1,6 @@
+version: "3.3"
 services:
-    web:
-        image: "psnjk/devops"
-        ports: 
-            - 5000:5000
+  web:
+    image: psnjk/devops:${TAG:-latest}
+    ports:
+      - "5000:5000"
