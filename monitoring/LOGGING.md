@@ -6,6 +6,8 @@
 - Promtail
 - Loki
 - Grafana
-
-![Loki is configured](screenshots/grafana_loki_configured.png)
-![Logs example](screenshots/grafana_logs_example.png)
+- 
+Loki is configured in Grafana at localhost:3000 :
+![Loki](screenshots/grafana_loki_configured.png)
+Logs example:
+![Logs](screenshots/grafana_logs_example.png)
