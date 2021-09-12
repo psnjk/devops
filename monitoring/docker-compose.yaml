@@ -1,0 +1,44 @@
+version: '3'
+
+networks:
+  monitoring:
+
+services:
+  app:
+    image: psnjk/devops:${TAG:-latest}
+    container_name: monitoring-app
+    ports:
+      - "5000:5000"
+    networks:
+      - monitoring
+
+  loki:
+    image: grafana/loki:2.3.0
+    container_name: monitoring-loki
+    ports:
+      - "3100:3100"
+    volumes:
+      - ./loki.yml:/etc/loki/loki.yml
+    command: -config.file=/etc/loki/loki.yml
+    networks:
+      - monitoring
+
+  promtail:
+    image: grafana/promtail:2.3.0
+    container_name: monitoring-promtail
+    ports:
+      - "9080:9080"
+    volumes:
+      - /var/lib/docker/containers:/var/lib/docker/containers
+      - ./promtail.yml:/etc/promtail/promtail.yml
+    command: -config.file=/etc/promtail/promtail.yml
+    networks:
+      - monitoring
+
+  grafana:
+    image: grafana/grafana:8.1.3
+    container_name: monitoring-grafana
+    ports:
+      - "3000:3000"
+    networks:
+      - monitoring
