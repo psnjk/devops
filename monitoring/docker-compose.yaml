@@ -42,3 +42,13 @@ services:
       - "3000:3000"
     networks:
       - monitoring
+
+  prometheus:
+    image: prom/prometheus
+    volumes:
+        - ./prometheus.yaml:/etc/prometheus/prometheus.yaml
+    ports:
+      - 9090:9090
+    networks:
+      - monitoring
+    
