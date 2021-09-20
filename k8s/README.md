@@ -25,3 +25,6 @@
    1. ![helm](screenshots/helm_svc.png)
    2. ![dash](screenshots/dash_mini.png)
 5. Checked! Output is provided on the screenshots
+
+### Bonus
+Library charts - is a way to avoid code repetition is by defining primitives that can be used in other diagrams.
