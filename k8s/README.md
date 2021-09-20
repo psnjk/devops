@@ -1,3 +1,4 @@
+# k8s
 ## Kubernetes with minikube
 
 1. Tutorials have been read
@@ -15,3 +16,12 @@
 7. ```deployment.yml``` manifest is created
 8. ```service.yml``` manifest is created
 9. Files are provided, output is on the screenshots and in report
+
+## Helm
+1. Tutorials have been read
+2. Helm installed
+3. ```helm create app-time``` and values are changed (minukube dashboard is in use)
+4. Helm chart is installed 
+   1. ![helm](screenshots/helm_svc.png)
+   2. ![dash](screenshots/dash_mini.png)
+5. Checked! Output is provided on the screenshots
