@@ -12,3 +12,6 @@
    1. ![deploy](screenshots/dep_pod_svc.png)
 6. Cleaned up
    1. ![clean](screenshots/deleted.png)
+7. ```deployment.yml``` manifest is created
+8. ```service.yml``` manifest is created
+9. Files are provided, output is on the screenshots and in report
