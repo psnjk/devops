@@ -1,0 +1,22 @@
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app-node-deployment
+  labels:
+    app: app-node
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: app-node
+  template:
+    metadata:
+      labels:
+        app: app-node
+    spec:
+      containers:
+      - name: app-node
+        image: psnjk/devops:latest
+        ports:
+        - containerPort: 5000
