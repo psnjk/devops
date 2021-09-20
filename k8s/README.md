@@ -9,6 +9,6 @@
    1. ```kubectl expose deployment app-node --type=LoadBalancer --port=5000```
    2. ```minikube service app-node```
 5. Folder created and this is a readme with screenshots
-   1. ![deploy](dep_pod_svc.png)
+   1. ![deploy](screenshots/dep_pod_svc.png)
 6. Cleaned up
-   1. ![clean](deleted.png)
+   1. ![clean](screenshots/deleted.png)
