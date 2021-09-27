@@ -4,3 +4,5 @@ services:
     image: psnjk/devops:${TAG:-latest}
     ports:
       - "5000:5000"
+    volumes:
+            - './visitors.txt:/app/visitors.txt'
