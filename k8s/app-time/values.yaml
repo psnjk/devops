@@ -4,11 +4,22 @@
 
 replicaCount: 1
 
+visits: "/app/"
+
 image:
   repository: psnjk/devops
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"
+
+statefulSet:
+  podManagementPolicy: "Parallel"
+  volumeClaimTemplates:
+    spec:
+      accessModes: [ "ReadWriteOnce" ]
+      resources:
+        requests:
+          storage: 256M
 
 imagePullSecrets: []
 nameOverride: ""
