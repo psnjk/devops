@@ -70,7 +70,7 @@ spec:
       tolerations:
         {{- toYaml . | nindent 8 }}
       {{- end }}
-    volumeClaimTemplates:
+  volumeClaimTemplates:
     - metadata:
         name: visits
       spec:
