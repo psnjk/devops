@@ -5,6 +5,7 @@
 replicaCount: 1
 
 visits: "/app/"
+downloadsFolder: "/downloads"
 
 image:
   repository: psnjk/devops
